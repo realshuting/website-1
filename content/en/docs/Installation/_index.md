@@ -223,8 +223,8 @@ e.g., change image tag from `latest` to the specific tag `v1.0.0`.
     spec:
       containers:
         - name: kyverno
-          # image: nirmata/kyverno:latest
-          image: nirmata/kyverno:v1.0.0
+          # image: ghcr.io/kyverno/kyverno:latest
+          image: ghcr.io/kyverno/kyverno:v1.3.0
 
 To install in a specific namespace replace the namespace "kyverno" with your namespace.
 
